@@ -201,7 +201,7 @@ public class Res extends JFrame {
                 JOptionPane.showMessageDialog(groupPanel, "Unknown selection.");
                 break;
         }
-    }
+    }//
 });
         //groupPanel.add(groupSizeLabel);
         //groupPanel.add(groupSizeField);
