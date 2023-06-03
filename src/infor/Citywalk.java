@@ -33,7 +33,7 @@ public class Citywalk extends JFrame {
     private JScrollPane scrollPane;
     public Citywalk(){
 
-     frame.setSize(600, 800);
+     frame.setSize(800, 800);
      frame.setTitle("City Walk");
      frame.setLocationRelativeTo(null);
     

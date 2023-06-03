@@ -36,17 +36,7 @@ public class RedSea extends JFrame {
     
      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      panel2.setBackground(Color.WHITE);
-      JButton button = new JButton("Reservation");
-        panel3.add(button);
-        add(panel3);
-         button.addActionListener(new ActionListener() {
-              
-         public void actionPerformed(ActionEvent e) {
-            // create an instance of the Res class
-            Res res = new Res();
-            res.setVisible(true);
-         }
-      });
+     
      images();
      JsonFile();
      frame.add(panel3, BorderLayout.SOUTH); 

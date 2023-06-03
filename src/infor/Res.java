@@ -335,7 +335,7 @@ public void saveUserInfo(String name, String age, String gender, String phone, S
                 try {
                     groupSize = Integer.parseInt(groupSizeField.getText());
                 } catch (NumberFormatException ex) {
-                    JOptionPane.showMessageDialog(this, "Please enter a validgroup size.");
+                   
                     return;
                 }
                 randomGroup = randomGroupCheckbox.isSelected();
