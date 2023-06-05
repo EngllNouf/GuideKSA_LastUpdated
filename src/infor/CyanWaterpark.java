@@ -34,7 +34,7 @@ public class CyanWaterpark extends JFrame {
      frame.setTitle("Cyan Waterpark");
      frame.setLocationRelativeTo(null);
      // تحديد إجراء النافذة عند الضغط على زر الإغلاق
-     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  //   frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      panel2.setBackground(Color.WHITE);
      
      images();

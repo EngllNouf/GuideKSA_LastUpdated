@@ -34,7 +34,7 @@ public class RedSea extends JFrame {
      frame.setTitle("Red Sea");
      frame.setLocationRelativeTo(null);
     
-     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   //  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      panel2.setBackground(Color.WHITE);
      
      images();

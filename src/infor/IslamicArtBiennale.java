@@ -39,7 +39,7 @@ public class IslamicArtBiennale  extends JFrame {
          frame.setTitle("Islamic Arts Biennale");
      
          frame.setLocationRelativeTo(null);// تحديد إجراء النافذة عند الضغط على زر الإغلاق
-         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       //  frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          panel2.setBackground(Color.WHITE);
        
          images();

@@ -35,9 +35,9 @@ public class Citywalk extends JFrame {
 
      frame.setSize(800, 800);
      frame.setTitle("City Walk");
-     frame.setLocationRelativeTo(null);
+   frame.setLocationRelativeTo(null);
     
-     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    // frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      panel2.setBackground(Color.WHITE);
      
     

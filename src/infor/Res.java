@@ -11,16 +11,20 @@ import org.json.simple.*;
 import org.json.simple.parser.JSONParser;
 
 public class Res extends JFrame {
-    private JLabel nameLabel, AgeLabel,genderLabel,phoneLabel,emailLabel;
-    private JTextField nameField, AgeField,genderField,phoneField ,EmailField;
+    private JLabel nameLabel, AgeLabel,genderLabel,phoneLabel,
+            emailLabel;
+    private JTextField nameField, AgeField,genderField,phoneField 
+            ,EmailField;
     private JButton checkButton, inviteFriendButton, submitButton;
     private JLabel resultLabel, groupSizeLabel,neighborhoodlabel;
     private JRadioButton aloneRadioButton, groupRadioButton;
     private JTextField groupSizeField;
     private JCheckBox randomGroupCheckbox;
     private JComboBox<String> neighborhoodBox,genderComboBox;
-    private JPanel infoPanel, jsonPanel, groupPanel,genderPanel,subPanel,
-            neighborhoodsPanel,labelPanel,comboPanel,radioPanel1,radioPanel2;
+    private JPanel infoPanel, jsonPanel, groupPanel,genderPanel
+            ,subPanel,
+            neighborhoodsPanel,labelPanel,comboPanel,radioPanel1
+            ,radioPanel2;
     private JTextArea output_txtArea;
     String name,age,gender,phone,email;
     
@@ -48,7 +52,7 @@ public class Res extends JFrame {
         
         // Set other properties of the frame
         setTitle("Reservation");
-        setSize(600, 600);
+        setSize(800, 800);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
@@ -329,23 +333,16 @@ public void saveUserInfo(String name, String age, String gender, String phone, S
         submitButton.addActionListener(e -> {
             String name = nameField.getText();
             boolean goingAlone = aloneRadioButton.isSelected();
-            int groupSize = 0;
+
             boolean randomGroup = true;
-            if (!goingAlone) {
-                try {
-                    groupSize = Integer.parseInt(groupSizeField.getText());
-                } catch (NumberFormatException ex) {
-                   
-                    return;
-                }
-                randomGroup = randomGroupCheckbox.isSelected();
-            }
+
             // Do something with the reservation information, such as store it in a database
             if (goingAlone) {
                 System.out.println("Reservation: " + name + ", going alone.");
+                JOptionPane.showMessageDialog(this, "Your information was successfullty saved...");
             } else {
                 String groupType = randomGroup ? "random group" : "invited team";
-                System.out.println("Reservation: " + name + ", going with a group of " + groupSize + " (type: " + groupType + ")");
+                System.out.println("Reservation: " + name + " (type: " + groupType + ")");
             }
             // Get the phone number from the JTextField
             String phoneNumber = phoneField.getText();
