@@ -6,7 +6,10 @@ including historical sites, museums, cultural centers, and outdoor spaces. It al
 provides events held by the Ministry of Entertainment. Users can navigate the 
 city and discover new places before having to physically visit them.
 
-# We developed our city exploration app using Scrum methodology. We created a product backlog, divided it into sprints, and held sprint planning, review, 
+
+#Developing a City Exploration App Using Scrum Methodology
+
+We developed our city exploration app using Scrum methodology. We created a product backlog, divided it into sprints, and held sprint planning, review, 
 and retrospective meetings. 
 Our flexible development process allowed us to deliver value to our users, and we have now successfully finished building the app.
 
